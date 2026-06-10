@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curated Topic & Media | IML470</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Curated Content Showcase</h1>
+        <p>Curated and authored by: <strong>Muhammad Nazmi bin Mohd Kamaruzzaman</strong> (UiTM ID:2025228312) for IML470.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="resume.html">Résumé & Classes</a> | 
+        <a href="project.html">Curated Topic</a>
+    </nav>
+    <hr>
+
+    <main>
+        <p>Skip straight to the <a href="#media-gallery">Multimedia Gallery</a>.</p>
+
+        <section>
+            <h2>Topic of Interest: Semiconductor Hardware & Processing Power</h2>
+            <p>The modern tech landscape is driven by innovations in mobile silicon, desktop consumer CPUs, and dedicated graphics microarchitectures.</p>
+            
+            <h3>Industry Leader Reference Hub</h3>
+            <p>
+                <a href="https://www.intel.com" target="_blank"><img src="intel.png" alt="Intel Core" width="50"> Intel Processors</a> | 
+                <a href="https://www.nvidia.com" target="_blank"><img src="nvidia.webp" alt="Nvidia RTX" width="50"> Nvidia Graphics</a> | 
+                <a href="https://www.qualcomm.com" target="_blank"><img src="snapdragon.webp" alt="Snapdragon SoC" width="50"> Qualcomm Mobile SoCs</a> | 
+                <a href="https://www.apple.com" target="_blank"><img src="apple.webp" alt="Apple Silicon" width="50"> Apple M-Series & A-Series</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>Interactive Semiconductor Chip Map</h2>
+            <p>Click on the different hardware die sectors below to explore manufacturing architectures:</p>
+            
+            <img src="diemap.jpeg" alt="Processor Die Map" usemap="#chipmap">
+            <map name="chipmap">
+                <area shape="rect" coords="0,0,100,100" alt="CPU Cores" href="https://www.intel.com" target="_blank">
+                <area shape="circle" coords="150,150,50" alt="GPU Clusters" href="https://www.nvidia.com" target="_blank">
+            </map>
+        </section>
+
+        <section id="media-gallery">
+            <h2>Multimedia Gallery</h2>
+            
+            <h3>Hardware Discussion Audio</h3>
+            <audio controls>
+                <source src="podcasttech.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Tech Review Video Presentation</h3>
+            <video width="320" height="240" controls>
+                <source src="processor.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Muhammad Nazmi bin Mohd Kamaruzzaman | IML470 Submission</p>
+    </footer>
+
+</body>
+</html>
