@@ -1,16 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #0d233a; 
+    background-color: #0b132b; 
     color: #ffffff;            
     line-height: 1.6;
     padding: 20px;
 }
 
 header {
-    background-color: #0a1b2c; 
+    background-color: #1c2541; 
     color: #ffffff;            
     padding: 15px;
     text-align: center;
+    border-radius: 8px;
 }
 
 nav {
@@ -29,37 +30,44 @@ nav a:hover {
     color: #ff9933;            
 }
 
-a {
-    color: #4da6ff;
+/* Rounded Cards Styling */
+.info-card {
+    background-color: #1c2541;
+    border: 1px solid #3a506b;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
-a:hover {
-    color: #ff9933;
+.info-card h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #3a506b;
+    padding-bottom: 8px;
+    color: #ffffff;
+}
+
+/* Profile Table Styling inside the Card */
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: none;
+}
+
+.profile-table td {
+    border: none;
+    text-align: left;
+    padding: 6px;
+    color: #ffffff;
+}
+
+.profile-table td:first-child {
+    width: 20%;
+}
+
+.profile-table td:nth-child(2) {
+    width: 5%;
 }
 
 ul.custom-list {
     list-style-type: square; 
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
-    background-color: #132a42; 
-    color: #ffffff;            
-}
-
-th {
-    background-color: #0a1b2c; 
-    color: #ffffff;
-}
-
-th, td {
-    border: 1px solid #264666; 
-    text-align: center;
-    padding: 10px;
-}
-
-tr:nth-child(even) {
-    background-color: #183350; 
 }
